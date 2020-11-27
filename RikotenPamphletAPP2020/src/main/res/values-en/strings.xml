@@ -1,0 +1,473 @@
+<resources>
+    <string name="app_name">RikotenPamphlet</string>
+
+    <!--BottomNavigationViewの5つのタイトル-->
+    <string name="str_bnv_title_Top">Top</string>
+    <string name="str_bnv_title_Projects">Project</string>
+    <string name="str_bnv_title_Time_Table">TimeTable</string>
+    <string name="str_bnv_title_Info">Information</string>
+
+    <!--お知らせ一覧のあの「お知らせ」の文字列-->
+    <string name="str_top_notification">Notification</string>
+
+    <!--NotificationDialogやYesNoDialogでの「はい」や「いいえ」の文字列リソース-->
+    <string name="str_sharing_dialog_choosing_ok">Yes</string>
+    <string name="str_sharing_dialog_choosing_ng">No</string>
+    <string name="str_general_interface_verification_title">
+        Verification
+    </string>
+
+    <!--利用規約の確認のダイヤログの文言-->
+    <string name="str_initial_TOS_title">
+        Agree to Terms of Use
+    </string>
+
+    <string name="str_initial_TOS_content_ng">
+        Terms of Use was not agreed, so the app will be closed.
+    </string>
+
+    <!--プライバシーポリシーの確認のダイヤログの文言-->
+    <string name="str_initial_PP_title">
+        Agree to Privacy Policy
+    </string>
+
+    <string name="str_initial_PP_content_ng">
+        Privacy Policy was not agreed, so the app will be closed.
+    </string>
+
+    <!--初回アンケート関連の文字列マテリアル-->
+
+    <string name="str_initial_questionnaire_explanation_1">
+        Thank you for downloading the Waseda University Rikoten App.\n
+        Please fill out the questionnaire to help us manage the Rikoten.
+    </string>
+
+    <string name="str_initial_questionnaire_explanation_2">
+        The information you provide us with will be managed in accordance with our privacy policy.
+    </string>
+
+    <string name="str_initial_questionnaire_explanation_3">
+        Gender
+    </string>
+
+    <string-array name="str_initial_questionnaire_explanation_3_choice">
+        <item>Please select one.</item>
+        <item>Man</item>
+        <item>Woman</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="str_initial_questionnaire_explanation_4">
+        Age
+    </string>
+
+    <string-array name="str_initial_questionnaire_explanation_4_choice">
+        <item>Please select one.</item>
+        <item>Under 10 years old</item>
+        <item>10 ~ 19 years old</item>
+        <item>20 ~ 29 years old</item>
+        <item>30 ~ 39 years old</item>
+        <item>40 ~ 49 years old</item>
+        <item>50 ~ 59 years old</item>
+        <item>60 ~ 69 years old</item>
+        <item>Over 70 years old</item>
+    </string-array>
+
+    <string name="str_initial_questionnaire_explanation_5">
+        Occupation
+    </string>
+
+    <string-array name="str_initial_questionnaire_explanation_5_choice">
+        <item>Please select one.</item>
+        <item>Preschooler</item>
+        <item>Elementary school student</item>
+        <item>Junior high school student</item>
+        <item>High school student</item>
+        <item>Waseda University student</item>
+        <item>Other University student</item>
+        <item>Vocational school students</item>
+        <item>Working people</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="str_initial_questionnaire_explanation_6">
+        How did you find out about the Rikoten App?
+    </string>
+
+    <string-array name="str_initial_questionnaire_explanation_6_choice">
+        <item>Please select one.</item>
+        <item>I learned about it at the last two Rikoten.</item>
+        <item>A family member or acquaintance told me.</item>
+        <item>I visited the official website of the Rikoten.</item>
+        <item>I\'ve been on social media.</item>
+        <item>I saw the poster.</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="str_initial_questionnaire_explanation_7">
+        How many times have you visited the Rikoten?
+    </string>
+
+    <string-array name="str_initial_qustionnaire_explanation_7_choice">
+        <item>Please select one.</item>
+        <item>The first time</item>
+        <item>Twice</item>
+        <item>3 times</item>
+        <item>4 times</item>
+        <item>More than 5 times</item>
+    </string-array>
+
+    <string name="str_initial_questionnaire_explanation_8">
+        Sending
+    </string>
+
+    <!--Top画面の仮設のウォークラリーボタン-->
+    <!--TODO 個のウォークラリーボタンにとって代わり新たな機能をアップデートで実装する。-->
+    <string name="str_top_walkrally_bt_dialog_title">
+        About this year Walk Rally
+    </string>
+    <string name="str_top_walkrally_bt_dialog_content">
+        This year, the Rikoten will be held online, so there will not be a walk rally.\n Instead, you can roam the campus with the Virtual Rikoten App.\n Please enjoy!
+    </string>
+
+    <!--AR矢口くんの起動時の文言-->
+    <string name="str_top_aryaguchi_notification_title">
+        AR Yaguchi
+    </string>
+    <!--起動可能(すでにAR矢口くんが入っている)-->
+    <string name="str_top_aryaguchi_notification_content_ok">
+        To children\n
+        When playing with "AR Yaguchi", stay close to the ground, not away from your mom and dad.\n\n
+        To adults\n
+        When playing "AR Yaguchi", please keep an eye on your child and make sure that there are no dangerous obstacles in the vicinity.
+    </string>
+    <!--起動不能(AR矢口くんが端末に入っていない)-->
+    <string name="str_top_aryaguchi_notification_content_ng">
+        "AR Yaguchi" is a separate application and needs to be downloaded separately. Do you want to download it?
+    </string>
+
+    <string name="str_top_virtual_rikoten_notification_title">
+        Virtual Rikoten
+    </string>
+
+    <string name="str_top_virtual_rikoten_notification_content_ng">
+        "Virtual Rikoten" is a separate application and needs to be downloaded separately. Do you want to download it?
+    </string>
+
+    <string name="str_top_virtual_rikoten_button">
+        Virtual Rikoten
+    </string>
+
+    <string name="str_top_aryaguchi_button">
+        AR Yaguchi
+    </string>
+
+    <string name="str_top_rikoten_no1_button">
+        Rikoten NO.1
+    </string>
+
+    <string name="str_top_rikoten_this_year_button">What is Rikoten?</string>
+
+
+    <string name="str_top_rikoten_no1_notification_title">
+        Rikoten NO.1
+    </string>
+
+    <string name="str_top_rikoten_no1_notification_content_ng">
+        Sorry! This button is still not under implementation now. Please wait for upcoming update.
+    </string>
+
+    <!--利用規約-->
+    <string name="str_term_of_use">
+Term of Use\n
+Thank you for downloading the Waseda University Rikoten Pamphlet App. These terms of use stipulate the terms of use for this application and the "Waseda University Rikoten Pamphlet App" provided by the Waseda University Rikoten Executive Committee, which manages the Rikoten.\n
+*Please refer to the "Virtual Rikoten App" for the terms of use and privacy policy of the "Virtual Rikoten App" provided by the Rikoten Executive Committee.\n
+\n
+Article 1: Introduction\n
+Users of this application must agree to these Terms of Use and abide by them. If you do not agree to these terms and conditions, please stop using this application.\n
+\n
+Article 2: Handling of personal information\n
+The handling of user information obtained through this application shall be in accordance with the "Privacy Policy" set forth separately.\n
+\n
+Article 3: Prohibited acts\n
+When using this application, the following actions are prohibited. If you do so, we may suspend your use of this application without prior notice.\n
+(1) Any act that violates the law or public order and morals, and any act that encourages such acts.\n
+(2) Acts related to criminal acts.\n
+(3) Destroy or interfere with the server or network functions of the App.\n
+(4) Actions that interfere with or may interfere with the operation, maintenance, or use of the App service.\n
+(5) Deletion or modification of the Service.\n
+(6) Deciphering, decompiling, disassembling or reverse engineering any of the software used to provide the Service or the Content.\n
+(7) Infringement of intellectual property rights, rights of publicity, rights of privacy, rights of honor, and other rights or interests of the Rikoten Executive Committee, other users of this application, or third parties.\n
+(8) Any other actions that the Rikoten Executive Committee deems inappropriate.\n
+\n
+Article 4: Disclaimers\n
+By using this application, you must agree to the following terms of use.\n
+1．The Rikoten Executive Committee does not guarantee the following for this application.\n
+（1） No malfunctions or failures in the equipment due to OS upgrades or application updates.\n
+（2） No defects, malfunctions, or damage to the device due to the use of this application.\n
+（3） That the App will always function properly.\n
+（4） The App will be permanently available.\n
+（5） No interruptions or errors in the use of the App.\n
+2．The Rikoten Executive Committee will not provide any individual support for the use of this application.\n
+3．This service may be changed, added, suspended or deleted without prior notice by the Rikoten Executive Committee.\n
+4．The Rikoten Executive Committee shall not be responsible for any damage, including physical, mental, or financial damage caused to the user due to the use of this application or the inability to use this application.\n
+5．There is no charge for the use of this application, but the user shall be responsible for any necessary terminal equipment, communication facilities, communication fees, etc.\n
+\n
+Article 5: Intellectual property rights\n
+(Please refer to Article 7 for the function "AR Yaguchi" of this application.)\n
+This application and its copies (including programs, images, documents, etc.) are protected by copyright law and other laws related to intellectual property rights, and all copyrights and other rights belong to the organizer of the Rikoten.\n
+The user is granted only a non-exclusive, non-transferable right to use the Application, and does not have any ownership rights, copyrights, or any other rights to the Application or its copies under this Agreement.\n
+\n
+Article 6: Third Party Websites or Resources\n
+The Service may contain links to third-party websites or resources. The Rikoten Executive Committee is not responsible for these websites or resources, or for the content, products or services available from links that appear on these websites.\n
+\n
+Article 7:　AR Yaguchi\n
+1．When you use the function "AR Yaguchi" of this application, please agree to the following terms before using it. If you do not agree, you may be terminated from using this function.\n
+（1） Check the safety of your surroundings before use.\n
+（2） Do not engage in any activity that may be a danger to yourself or others.\n
+（3） Do not engage in any activity that may be a nuisance to others.\n
+2．Please refer to the following items for more information about images taken by "AR Yaguchi".\n
+（1） The AR Yaguchi image is protected by the Copyright Law and other laws related to intellectual property rights, and the copyright and all other rights shall belong to the Rikoten Executive Committee.\n
+（2） The Committee allows users to use AR Yaguchi image for private use.\n
+（3） This committee allows users to freely publish AR Yaguchi images on websites and services such as SNS (except for images that are offensive to public order and morals).\n
+（4） Please be careful not to post images in which personal information can be identified.\n
+\n
+Article 8: Governing Law and Jurisdiction\n
+This agreement is governed by the laws of Japan, and any dispute arising out of or in connection with this Application, or between the user and this contact group, shall be subject to the exclusive jurisdiction of the Tokyo District Court as the court of first instance.\n
+\n
+Article 9: Changes to the Terms and Conditions\n
+These terms and conditions are subject to change without notice. Users will not be notified of any changes, so please check the latest Terms of Service whenever you use this application.\n
+If you have any opinions or questions about this application, the Terms and Conditions, or the Privacy Policy, please use the contact form below to send us a message.\n
+\n
+Inquiry Form\n
+https://forms.gle/oFCHWi4CQPpw2CkQA\n
+\n
+Waseda University Rikoten Executive Committee\n
+#Rikoten Executive Committee M-38 1-24-1 Toyama, Shinjuku-ku, Tokyo-to 162-0052, Japan\n
+\n
+October 13th, 2018　Enactment and enforcement\n
+November 3rd, 2018　Revision (of a rule)\n
+September 18th, 2019 Revision (of a rule)\n
+October 15th, 2020 Revision (of a rule)\n
+
+
+    </string>
+
+    <!--プライバシーポリシー-->
+    <!--これも現状去年からパクってきただけ-->
+    <string name="str_privacy_policy">
+Privacy Policy\n
+Thank you for downloading this application. This privacy policy (hereinafter referred to as the "this policy") defines how Rikoten Executive Committee (hereinafter referred to as "the committee"), the operator of rikoten, handles personal information and information based on that information on Waseda University Rikoten pamphlet application (hereinafter referred to as the "this app").\n
+※Please refer to the privacy policy of the "Virtual Rikoten App" provided by the Committee in the "Virtual Rikoten App".\n
+\n
+1.  Definition of personal information\n
+In privacy information, "personal information" refers to "personal information" as defined in the Act on the Protection of Personal Information, and refers to information about a living individual who can be identified by name, date of birth, address, or any other description contained in such information.\n
+\n
+2.  Personal information to be provided, the method of acquisition and the purpose of acquisition\n
+（1）Age, gender, occupation, the way you found this app, how many times you have visited us and OS of your device\n
+Method of Acquisition：Questionnaire at the first launch of this application\n
+Purpose of Acquisition：Reference for production and operation of this application\n
+（2）Project information viewed\n
+Method of Acquisition:Get it when you click on the project details screen\n
+Purpose of Acquisition:Survey and analysis of the usage of this application, and reference for the production and operation of Rikoten\n
+（3）Click information for each button in this application\n
+Method of Acquisition：Get it when you click each button\n
+Purpose of Acquisition：Survey and analysis of the usage of this application, and reference for the production and operation of Rikoten\n
+（4）Inquiry details\n
+Method of Acquisition：Input from Inquiry Form(https://forms.gle/oFCHWi4CQPpw2CkQA)\n
+Purpose of Acquisition：Reference for the creation of this application\n
+\n
+3.  Management of personal information\n
+In order to prevent the loss, damage, falsification, leakage, etc. of personal information, the committee will take the necessary measures, such as the maintenance of a management system, to strictly manage personal information.\n
+\n
+4.  Disclosure and Provision of Information\n
+With the exception of the following cases, we will not disclose or provide personal information collected to a third party.\n
+（1）When it is based on laws and regulations and it is difficult to obtain the consent of the person\n
+（2)When it is necessary for the protection of a person\'s life, body, or property and it is difficult to obtain the consent of the person\n
+（3)When it is particularly necessary to improve public health or promote the sound growth of children, and it is difficult to obtain the consent of the individual concerned.\n
+（4）When cooperating with a national agency, a local government, or an individual or entity entrusted by such a government agency or local government in the performance of their legally prescribed duties, and obtaining the consent of the individual may interfere with the performance of such duties.\n
+\n
+5.  Correcting, adding, deleting and stopping the use of personal information\n
+Please note that we cannot respond individually to requests from users to correct, add, delete, or stop using their personal information.\n
+\n
+6.  Changes to the Privacy Policy\n
+This policy is subject to change without notice. We will not notify users of any changes to this policy. Please check the latest privacy policy whenever you use this application.\n
+\n
+Waseda University Rikoten Executive Committee\n
+#Rikoten Executive Committee M-38 1-24-1 Toyama, Shinjuku-ku, Tokyo-to 162-0052, Japan\n
+\n
+October 13th, 2018　Enact and Execution\n
+September 18th, 2019 Revision\n
+October 15th, 2020　Revision\n
+    </string>
+
+    <!--バージョン確認ダイヤログの文言-->
+
+    <string name="str_version_verification_is_latest">
+This app is up to date. Please keep using it.
+    </string>
+
+    <string name="str_version_verification_is_not_latest">
+Your app is not the latest version. Please visit Google Play and download the latest version.
+    </string>
+
+    <!--企画一覧画面での上の説明文に使われている文字列マテリアル-->
+    <string name="str_project_list_explain_all">
+        All Projects
+    </string>
+    <string name="str_project_list_explain_genre">
+        Tag ：　
+    </string>
+    <string name="str_project_list_explain_history">
+        History
+    </string>
+    <string name="str_project_list_explain_favorite">
+        Favorites
+    </string>
+    <string name="str_project_list_explain_random">
+        Random
+    </string>
+    <string name="str_project_list_explain_popular">
+        Popular Projects
+    </string>
+
+    <!--企画詳細画面-->
+    <!--シェアの文字列 *_frontと*_backで企画名を挟むイメージ-->
+    <string name="str_project_detail_share_front">
+        My recommended project is "
+    </string>
+
+    <string name="str_project_detail_share_back">
+        "!!\n
+        https://apple.co/2lvZObO\n
+    </string>
+
+    <string name="str_project_detail_verification_message_out_of_rikoten_span">
+        You cannot see this project in the classroom of Virtual Rikoten App since Rikoten is not held for now.
+        Do you really want to start Virtual Rikoten App?\n\n
+        Rikoten will be held on the following schedule.\n
+        ・ 11/7(Sat) 09:00 ~ 20:00\n
+        ・ 11/8(Sun) 09:00 ~ 20:00
+    </string>
+
+    <string name="str_project_detail_notification_message_web_out_of_rikoten_span">
+        You cannot see the webpage since Rikoten is not held for now.\n
+        Please wait for the helding of Rikoten.\n
+        Rikoten will be held on the folowing schedule.\n
+        ・ 11/7(Sat) 09:00 ~ 20:00\n
+        ・ 11/8(Sun) 09:00 ~ 20:00
+    </string>
+
+    <string name="str_project_detail_notification_how_to_attend_live_event">
+        This is a live-streaming project.\n
+        To join this project, you need to click the "Live stream" button or "See on the Rikoten Website" button.
+    </string>
+
+    <!--企画リスト画面-->
+    <string name="str_projects_list_search">
+        Searched with these conditions:
+    </string>
+
+    <string name="str_projects_list_conditions">
+        conditions
+    </string>
+
+    <string name="str_project_detail_tags">
+        Tags belonging to this project
+    </string>
+
+    <string name="str_project_detail_share_projects">
+        Share
+    </string>
+
+    <string name="str_project_detail_project_page_link">
+        Online Rikoten Link
+    </string>
+
+    <string name="str_project_detail_project_description">
+        Overview
+    </string>
+
+    <string name="str_project_detail_project_description_detail">
+        Project Description
+    </string>
+
+    <string name="str_project_detail_group_description">
+        Group Description
+    </string>
+
+    <string name="str_project_detail_link_to_group">
+        Group Website and SNS
+    </string>
+
+    <!--タイムテーブル関係-->
+    <string name="str_time_table_ng_notification_title">
+        Notification
+    </string>
+
+    <string name="str_time_table_ng_notification_detail">
+        Sorry, the timetable is still not available since it is out of the Rikoten\'s hour now .\n
+        Rikoten will be held on the following schedule.\n
+        ・ 11/7(Sat) 09:00 ~ 20:00\n
+        ・ 11/8(Sun) 09:00 ~ 20:00
+    </string>
+
+    <string name="str_time_table_tab_day1">
+        Day 1（11/7）
+    </string>
+
+    <string name="str_time_table_tab_day2">
+        Day 2(11/8)
+    </string>
+
+    <!--インフォメーション用データ-->
+    <string name="str_information_list_fragment_official_urls">
+        Rikoten Official Link
+    </string>
+
+    <string name="str_information_list_fragment_official_web">
+        Rikoten Homepage
+    </string>
+
+    <string name="str_information_list_fragment_official_twitter">
+        Rikoten Official Twitter
+    </string>
+
+    <string name="str_information_list_fragment_official_fb">
+        Facebook
+    </string>
+
+    <string name="str_information_list_fragment_committee_web">
+        Rikoten Executive Committee Homepage
+    </string>
+
+    <string name="str_information_list_fragment_official_it_twitter">
+        rikoten IT Team Twitter
+    </string>
+
+    <string name="str_information_list_fragment_about">
+        About this app
+    </string>
+
+    <string name="str_information_list_fragment_version">
+        Version Check
+    </string>
+
+    <string name="str_information_list_fragment_terms">
+        Terms of Service
+    </string>
+
+    <string name="str_information_list_fragment_policy">
+        Privacy Policy
+    </string>
+
+    <string name="str_information_list_fragment_contact">
+        Contact us
+    </string>
+
+    <string name="str_information_list_fragment_form">
+        Request Form
+    </string>
+
+
+</resources>
