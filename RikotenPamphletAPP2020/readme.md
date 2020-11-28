@@ -29,7 +29,7 @@ Senです。TwitterIDは[@nonpro3](https://twitter.com/nonpro3)です。趣味�
 
 ダウンロード(Android版): https://play.google.com/store/apps/details?id=com.rikoten.AndroidApp2018new&hl=ja&gl=US
 
-2020年版は、2019年までのソースコードを参考に一から設計して私が、Kotlinで組みなおしました。
+2020年版は、2019年までのソースコードを参考に一から設計して私が、Kotlinで組みなおしました。ある程度具体的な設計の説明は、構造説明/アプリのクラス構造.md、にあります。
 
 # このディレクトリについて
 
