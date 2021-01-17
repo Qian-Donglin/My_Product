@@ -1,0 +1,120 @@
+<!--フィールドは小文字　ColectionとDocumentは原則大文字スタート-->
+
+<Firestore>
+	<!--アプリのバージョン-->
+	<Colection name="AppVersion">
+		<Document name="Android">
+			<Field name="version">"1.0"</Field>
+		</Document>
+		
+		<Document name="iOS">
+			<item name="version">"1.0"</item>
+		</Document>
+
+	</Colection>
+
+	<Colection name="Questionnaire">
+		<!--要相談-->
+	</Colection>
+
+	<Colection name="News">
+		<Document name="Android">
+			<Colection name="NewsList">
+			<!--日本語名をそのままDocument名に-->
+				<Document name="理工展まであと3日！">
+					<!--titleはたかだか17文字-->
+					<item name="title_ja">"理工展まであと3日！"</item>
+					<item name="title_en">Rikoten will start in 3 days!</item>
+					<item name="detail_ja">"理工展まであと三日となりました。今年もたくさんの企画を用意しております。今のうちに理工展で気になり企画をチェックしておきましょう。"</item>
+					<item name="detail_en">"Rikoten will start in 3 days! We prepare many projects for visitors! You can check the projects' information and add some projects to \"favorites\"!"</item>
+					<item name="icon_location">"URL"</item>
+					<item name="timestamp">"yyyy/mm/dd hh:mm"</item>
+					<item name="order"></item>
+				</Document>
+			</Colection>
+		<Document name="iOS">
+			<!--iOSはAndroidと同じ-->
+		</Document>
+	</Colection>
+
+	<Colection name="ProjectsData">
+		<Document name="やきそば(日本語名そのまま)">
+			<item name="title_ja">"やきそば"</item>
+			<item name="title_en">"Yakisoba"</item>
+			<!--subtitleは10~20文字-->
+			<item name="subtitle_ja">"女子野球サークル特製の焼きそば"</item>
+			<item name="subtitle_en">"Women Baseball Club's hand made!The Great Yakisoba!"</item>
+			<!--descrption_jaは100文字以内　英語はこれから決める-->
+			<item name="description_ja">"短い説明"</item>
+			<item name="description_en">"the short description."</item>
+			<!--description_detail_jaは300文字以内。英語はこれから決める-->
+			<item name="description_detailed_ja">"詳細の説明。詳細の説明。詳細の説明。詳細の説明。詳細の説明。詳細の説明。詳細の説明。"</item>
+			<item name="description_detailed_en">"The concrete description.The concrete description.The concrete description.The concrete description.The concrete description."</item>
+			<item name="group_ja">"女子軟式野球サークルWASEBI"</item>
+			<item name="group_en">"Women Base Ball Club \"WASEBI\""</item>
+			<item name="group_description_ja">"団体の詳細説明。"</item>
+			<item name="group_description_en">"The concrete description of organizing group.The concrete description of organizing group.The concrete description of organizing group."</item>
+			<item name="icon">"URL"</item>
+			<item name="large_image">"URL"</item>
+			<item name="group_website">"URL"</item>
+			<!--Twitterは@を除いたアカウント名を書く-->
+			<item name="twitter">nonpro_3</item>
+			<!--FacebookはURIを書く-->
+			<item name="facebook">"URL"</item>
+			<!--Instagramは未定。広報物調査が来てからまた決める。TODO-->
+			<item name="instagram">""</item>
+			<item name="rikoten_web_link">"URL"</item>
+			
+			<!--バーチャル理工展のでの展示場所のデータ-->
+			<!--
+				通常アプリからunityの企画の教室の前へ移動することについて、
+				52号館101号室 ->521012
+				52号館102号室 ->521023
+				52号館103号室 ->521034
+				52号館104号室 ->521041
+				のように、その教室番号にその教室番号の下一桁に1を足した数（5になる時は1）のintをください。-->
+			<item 
+				name="virtual_rikoten_location"
+				type=number>521012</item>
+			
+			<!--今年の実装では1つ目のタグを「ジャンル」として、ジャンル別の企画一覧を表示させるのにも使う。-->
+			<!--余力があればタグのカスタム検索(タグ含有条件の論理演算)も実装する。-->
+			<item name="tags">
+				<array>
+					<item>"模擬店"</item>
+					<item>"サークル出展"</item>
+					<item>"創造理工"</item>
+				</array>
+			</item>
+			
+		</Document>
+	</Colection>
+
+	<!--タイムテーブルはまだフォーマットが未定-->
+	<Colection name="TimeTable">
+		
+	</Colection>
+
+	<Colection name="TopFlipper">
+		<!--Flipperの要素の日本語表示名-->
+		<!--実際の並び順は要素のorderの昇順に従う(その順番になるようにアプリ側でソート)-->
+		<Document name="パズルの国の大事件">
+			<!--transitiontypeに入る要素は以下。記述されてる文字列は要素destinationを指す。-->
+			<!--"website"はサイトへのリンク。記述されてる文字列はURL-->
+			<!--"projectDetail"は企画詳細画面に飛ぶ。記述されてる文字列はProjectsDataのDocument名-->
+			<!--"ARYaguchi"はAR矢口起動。この時に記述されてる文字列は意味をなさない。-->
+			<!--"VirtualRikotenApp"はバーチャル理工展起動。この時に記述されてる文字列は意味をなさない。-->
+			<item name="transition_type">"website"</item>
+			<item name="destination">"https://atcoder.ja/users/Sen"</item>
+			<!--orderは0-index-->
+			<item name="order"
+				type=number>0</item>
+			<item name="image_url">画像のURL</item>
+		</Document>
+	</Colection>
+
+	<!--user-actionは未定-->
+	<Colection name="UserAction">
+		
+	</Colection>
+</Firestore>
